@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Shopping Spree
+        </title>
+        <style>
+            body {
+                background-color: black;
+            }
+            .img-class {
+                margin-left: 616px;
+                margin-top: 200px;
+            }
+            .h1-class {
+                font-family: Arial;
+                font-weight: bolder;
+                color: white;
+                font-size: 17px;
+                margin-left: 663px;
+            }
+            .h1-text {
+                color: white;
+                font-weight: bolder;
+                font-family: Arial;
+                font-size: 20px;
+                margin-left: 697px;
+            }
+            .button-amozon {
+                background-color: rgb(27, 27, 247);
+                color: white;
+                height: 36px;
+                width: 110px;
+                margin-left: 20px;
+                border-radius: 61px;
+                border: none;
+                font-size: 14px;
+                font-weight: bolder;
+                font-family: Arial;
+                cursor: pointer;
+                transition: opacity 0.15s;
+                display: block;
+                display: inline;
+            }
+            .button-amozon:hover {
+                opacity: 0.8;
+            }
+            .button-amozon:active {
+                opacity: 0.4;
+            }
+            .button-class {
+                background-color: rgb(184, 129, 20);
+                color: white;
+                height: 36px;
+                width: 110px;
+                margin-left: 610px;
+                border: none;
+                font: 14px;
+                font-weight: bolder;
+                font-family: Arial;
+                cursor: pointer;
+                display: block;
+                display: inline;
+                border-radius: 61px;
+                transition: opacity 0.15s;
+            }
+            .button-class:hover {
+                opacity: 0.8;
+            }
+            .button-class:active {
+                opacity: 0.4;
+            }
+        </style>
+        <body>
+            <img src="download.jpg" class="img-class">
+            <h1 class="h1-class">Blue aged skirt</h1>
+            <h1 class="h1-text">19.99$</h1>
+            <button class="button-class" onclick="
+            alert('You added this product in the cart.')
+            ">Add to cart!</button>
+            <button class="button-amozon" onclick="
+            alert('You bought this product.')
+            ">Buy now!</button>
+        </body>
+    </head>
+</html>
